@@ -1,0 +1,27 @@
+{
+  "name": "typescript-webpack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "private": true,
+  "scripts": {
+    "serve": "webpack serve --open",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "rafael-almeida",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.0",
+    "css-loader": "^5.2.7",
+    "dotenv": "^8.6.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.3.0",
+    "typescript": "^4.3.5",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
